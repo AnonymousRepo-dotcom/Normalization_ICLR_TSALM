@@ -7,6 +7,7 @@ This repository contains the official code for the paper:
 ⚠️ **Note:** This repository is for double-blind review. The pretrained model weights will be made available after the review process. Please contact the authors if you need access to the weights for reproducing results during the review.
 We provide the results reported in the paper in the `processed_results/` folder, and figures can be generated from the results using the notebooks in `notebooks/`. Everything will work except "kv_cache.ipynb" and "inference.ipynb" which require the pretrained weights.
 Python scrips presented below will not works.
+⚠️ **Note:** The training procedure will be included in the main repository 
 
 ---
 
