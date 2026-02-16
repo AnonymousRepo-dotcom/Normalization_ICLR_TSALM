@@ -5,15 +5,16 @@ This repository contains the official code for the paper:
 **Do Normalization Choice Matter for Causal Time-Series Foundation Models?**
 
 ⚠️ **Note:** This repository is for double-blind review. The pretrained model weights will be made available after the review process. 
-We provide the results reported in the paper in the `processed_results/` folder, and figures can be generated from the results using the notebooks in `notebooks/`. Everything will work except "kv_cache.ipynb" and "inference.ipynb" which require the pretrained weights.
+We provide the results reported in the paper in the `processed_results/` folder, and figures can be generated from the results using the notebooks in `notebooks/`. Everything in this folder will work except "kv_cache.ipynb" and "inference.ipynb" which require the pretrained weights.
 Python scrips presented below will not works.
+
 ⚠️ **Note:** The training procedure will be included in the main repository 
 
 ---
 
 ## Repository Structure
 
-- **`results/`**  
+- **`processed_results/`**  
   Contains the experimental results reported in the paper, organized by experiment in separate subfolders.
 
 - **`notebooks/`**  
